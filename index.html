@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem e voce?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+
+ <header>
+    <h1>Contador!!</h1>
+ </header>
+
+
+ <section>
+    <div>
+        <label>Inicio:</label>
+        <input 
+        type="number"
+        name="inicio"
+        id="inicio"
+        step="1" 
+        placeholder="Numero inicial"
+        checked
+        />
+
+        <br>
+
+        <label>Fim:</label>
+        <input 
+        type="number"
+        name="fim"
+        id="fim"
+        step="1" 
+        placeholder="Numero final"
+        checked
+        />
+
+        <br>
+
+        <label>Pulos:</label>
+        <input 
+        type="number"
+        name="pulos"
+        id="pulos"
+        step="1" 
+        placeholder="Intercalar em"
+        checked
+        />
+        <br>
+
+        <input type="submit" value="Contar" onclick="contar()">
+
+        <p>Prencha os dados acima para ve o resultado!</p>
+
+       
+       
+    </div>
+
+    <div id="result">
+
+    </div>
+ </section>
+    
+ <footer>
+<p>&copy Mateus Cimini</p>
+ </footer>
+    <script src="script.js"></script>
+</body>
+</html>
